@@ -1,9 +1,9 @@
-import { discs } from "./discs.js";
-import { renderDiscs } from "./render.js";
+import { discs } from './discs.js';
+import { renderDiscs } from './render.js';
 
 const productList = document.getElementById('product-list');
 
-for (let renderDisc of discs){
-    const discsCard = renderDiscs(renderDisc);
+for (let disc of discs){
+    const discsCard = renderDiscs(disc);
     productList.append(discsCard);
 }
