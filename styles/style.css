@@ -12,14 +12,10 @@ h1 {
     text-align: center;
 }
 
-#destroyer, #buzzz, #luna, #wraith, #jawbreaker, #firebird {
-    height: 250px;
-    width: 250px;
-    flex-direction: row;
-    border: 2px 2px;
-    border-radius: 15px;
-    padding: 2px;
-    background-color: darkslategray;
-
+.disc-card img{
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    te
 }
 
