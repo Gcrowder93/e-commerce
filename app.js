@@ -1,8 +1,17 @@
-// import functions and grab DOM elements
+import { discs } from "./discs";
 
-// initialize global state
+const productList = document.getElementById('product-list');
 
-// set event listeners 
-  // get user input
-  // use user input to update state 
-  // update DOM to reflect the new state
+for (let disc of discs){
+  const discCard = document.createElement('div');
+  discCard.classList.add('disc-card');
+
+  const discHeader = document.createElement('h2');
+  discHeader.textContent = disc.name;
+
+  const img = document.createElement('img');
+  img.src = disc.img;
+
+  discCard.append(discHeader, img);
+  productList.append(discCard);
+}

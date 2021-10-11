@@ -1,9 +1,9 @@
-// IMPORT MODULES under test here:
-// import { example } from '../example.js';
+import { renderDiscs } from "../render";
+import { discs } from "../discs";
 
 const test = QUnit.test;
 
-test('time to test a function', (expect) => {
+test('render should return an HTML snippet', (expect) => {
     //Arrange
     // Set up your arguments and expectations
     const expected = true;
