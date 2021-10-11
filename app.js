@@ -1,17 +1,19 @@
-import { discs } from "./discs";
+import { discs } from "./discs.js";
+import { renderDiscs } from "./render.js";
 
 const productList = document.getElementById('product-list');
 
-for (let disc of discs){
+for (let renderDiscs of discs){
   const discCard = document.createElement('div');
   discCard.classList.add('disc-card');
 
   const discHeader = document.createElement('h2');
-  discHeader.textContent = disc.name;
+  discHeader.textContent = discs.name;
 
   const img = document.createElement('img');
-  img.src = disc.img;
+  img.src = discs.img;
 
   discCard.append(discHeader, img);
-  productList.append(discCard);
+  productList.append(discs);
 }
+

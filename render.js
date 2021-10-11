@@ -3,11 +3,12 @@ export function renderDiscs(discs){
     discCard.classList.add('disc-card');
   
     const discHeader = document.createElement('h2');
-    discHeader.textContent = disc.name;
+    discHeader.textContent = discs.name;
   
     const img = document.createElement('img');
-    img.src = disc.img;
+    img.src = discs.img;
   
     discCard.append(discHeader, img);
     return discCard;
 }
+console.log(renderDiscs);

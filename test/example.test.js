@@ -1,9 +1,9 @@
-import { renderDiscs } from "../render";
-import { discs } from "../discs";
+import { renderDiscs } from "../render.js";
+import { discs } from "../discs.js";
 
 const test = QUnit.test;
 
-test('render should return an HTML snippet', (expect) => {
+test('', (expect) => {
     //Arrange
     // Set up your arguments and expectations
     const expected = true;
