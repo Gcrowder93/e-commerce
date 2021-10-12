@@ -13,7 +13,7 @@ import { findById } from '../utils.js';
         const tdQty = document.createElement('td');
         tdQty.textContent = cartItem.qty;
         const tdTotal = document.createElement('td');
-        tdTotal.textContent = cartItem.qty * discData.cartItem;
+        tdTotal.textContent = `$${cartItem.qty * discData.price}.00`;
         tr.append(tdName, tdPrice, tdQty, tdTotal);
         tbody.appendChild(tr);
     }
