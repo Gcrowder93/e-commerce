@@ -59,4 +59,4 @@ export const discs = [
         price: '$21.99',
         img: './assets/firebird-disc.jpeg',
     }
-]
+];
