@@ -6,7 +6,7 @@ export const discs = [
         type: 'Distance Driver',
         graphic: 'yellow knight',
         category: 'sports',
-        price: '$24.99',
+        price: 24.99,
         img: './assets/destroyer2.jpeg',
     },
     {
@@ -16,7 +16,7 @@ export const discs = [
         type: 'Mid-Range',
         graphic: 'white bee',
         category: 'sports',
-        price: '$14.95',
+        price: 14.95,
         img: './assets/disc-buzzz.webp',
     },
     {
@@ -26,7 +26,7 @@ export const discs = [
         type: 'Putt & Approach',
         graphic: 'blue',
         category: 'sports',
-        price: '$24.99',
+        price: 24.99,
         img: './assets/disc-luna.webp',
     },
     {
@@ -36,7 +36,7 @@ export const discs = [
         type: 'Distance Driver',
         graphic: 'yellow wraith',
         category: 'sports',
-        price: '$24.99',
+        price: 24.99,
         img: './assets/yellow-wraith.jpeg',
     },
     {
@@ -46,7 +46,7 @@ export const discs = [
         type: 'Putt & Approach',
         graphic: 'jawbreaker',
         category: 'sports',
-        price: '$17.99',
+        price: 17.99,
         img: './assets/jawbreaker.jpeg',
     },
     {
@@ -56,7 +56,7 @@ export const discs = [
         type: 'Distance Driver',
         graphic: 'lime green',
         category: 'sports',
-        price: '$21.99',
+        price: 21.99,
         img: './assets/firebird-disc.jpeg',
     }
 ];
