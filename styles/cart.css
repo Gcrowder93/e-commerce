@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-size:cover;
+    background-image: url(/assets/cart.jpeg);
+    background-repeat: no-repeat;
+
+}
+
+h1 {
+    color: tomato;
+}
+
+table {
+    border: 3px solid red;
+    border-radius: 5px;
+    border-style: double;
+    padding: 20px;
+    letter-spacing: 1px;
+}
+
+thead {
+    background-color: bisque;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px rgb(196, 25, 119);
+    text-decoration: underline;
+    background: linear-gradient(to bottom, rgba(85, 11, 11, 0.1), rgba(189, 18, 18, 0.5));
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: right;
+    background: linear-gradient(to bottom, rgba(255, 217, 217, 0.1), rgba(212, 88, 88, 0.5));
+    text-shadow: 3px 3px 3px rgb(196, 25, 167);
+}
+
+tfoot {
+    text-decoration: underline;
+}
