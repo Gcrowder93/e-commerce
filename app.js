@@ -1,5 +1,5 @@
-import { discs } from './discs.js';
-import { renderDiscs } from './render.js';
+import { discs } from './data/discs.js';
+import { renderDiscs } from '../render.js';
 
 const productList = document.getElementById('product-list');
 
