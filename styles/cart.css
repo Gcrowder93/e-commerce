@@ -1,3 +1,7 @@
+h1 {
+    color: tomato;
+}
+
 table {
     border: 3px solid red;
 }
@@ -6,7 +10,7 @@ thead {
     background-color: bisque;
 }
 
-th, td {
+table th, table td {
     padding: 10px;
     text-align: right;
 }

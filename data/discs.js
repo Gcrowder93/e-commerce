@@ -1,6 +1,6 @@
 export const discs = [
     {
-        id: 'destroyer',
+        id: '1',
         name: 'Innova Destroyer',
         stats: '12, 5, -1, 3',
         type: 'Distance Driver',
@@ -10,7 +10,7 @@ export const discs = [
         img: './assets/destroyer2.jpeg',
     },
     {
-        id: 'buzzz',
+        id: '2',
         name: 'Discraft Buzzz',
         stats: '5, 4, -1, 1',
         type: 'Mid-Range',
@@ -20,7 +20,7 @@ export const discs = [
         img: './assets/disc-buzzz.webp',
     },
     {
-        id: 'luna',
+        id: '3',
         name: 'Discraft Luna',
         stats: '3, 3, 0, 3',
         type: 'Putt & Approach',
@@ -30,7 +30,7 @@ export const discs = [
         img: './assets/disc-luna.webp',
     },
     {
-        id: 'wraith',
+        id: '4',
         name: 'Innova Wraith',
         stats: '11, 5, -1, 3',
         type: 'Distance Driver',
@@ -40,7 +40,7 @@ export const discs = [
         img: './assets/yellow-wraith.jpeg',
     },
     {
-        id: 'jawbreaker',
+        id: '5',
         name: 'Discraft Zone',
         stats: '4, 3, 0, 3',
         type: 'Putt & Approach',
@@ -50,7 +50,7 @@ export const discs = [
         img: './assets/jawbreaker.jpeg',
     },
     {
-        id: 'firebird',
+        id: '6',
         name: 'Innova Firebird',
         stats: '9, 3, 0, 4',
         type: 'Distance Driver',
