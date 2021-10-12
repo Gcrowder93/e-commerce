@@ -1,6 +1,3 @@
-import { renderDiscs } from "../render.js";
-import { discs } from "../discs.js";
-
 const test = QUnit.test;
 
 test('', (expect) => {
