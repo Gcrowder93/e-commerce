@@ -6,7 +6,6 @@ export function findById(id, discs){
 
         
 export function calculateOrderTotal(cart, discs) {
-    console.log(discs);
     let orderTotal = 0;
     for (let item of cart){
         const disc = findById(item.id, discs);

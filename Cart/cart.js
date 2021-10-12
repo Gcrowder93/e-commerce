@@ -13,6 +13,5 @@ for (let cartItem of cart){
 }
 
 const orderTotal = calculateOrderTotal(cart, discs);
-console.log(orderTotal);
 const tdOrderTotal = document.getElementById('total');
 tdOrderTotal.textContent = orderTotal;
