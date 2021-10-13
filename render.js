@@ -28,9 +28,10 @@ export function renderDiscs(disc){
     addButton.classList.add('add-button');
  
     addButton.addEventListener('click', ()=>{
-        
+
     });
 
     discCard.append(discHeader, img, discType, discStats, discPrice, addButton, hr);
     return discCard;
 }
+
