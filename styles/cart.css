@@ -4,12 +4,20 @@ body {
     background-size:cover;
     background-image: url(/assets/cart.jpeg);
     background-repeat: no-repeat;
+ lab-07-demo
+    font-family: 'Chakra Petch', sans-serif;
+
     font-family: 'Roboto', sans-serif;
+ main
 }
 
 h1 {
     color: tomato;
+ lab-07-demo
+    font-size: 3em;
+
     text-shadow: 3px 3px 3px bisque;
+ main
 }
 
 table {
