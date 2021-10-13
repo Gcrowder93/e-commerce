@@ -2,7 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     background-size:cover;
-    background-image: url(/assets/cart.jpeg);
+    background-image: url(../assets/cart.jpeg);
     background-repeat: no-repeat;
     font-family: 'Chakra Petch', sans-serif;
 }

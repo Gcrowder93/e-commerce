@@ -1,6 +1,6 @@
 import { discs } from './data/discs.js';
-import { renderDiscs } from '../render.js';
-import { addItem } from '../utils.js';
+import { renderDiscs } from './render.js';
+import { addItem } from './utils.js';
 
 const productList = document.getElementById('product-list');
 
