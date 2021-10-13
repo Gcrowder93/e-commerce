@@ -7,7 +7,7 @@ export const discs = [
         graphic: 'yellow knight',
         category: 'sports',
         price: 24.99,
-        img: './assets/destroyer2.jpeg',
+        img: '../assets/destroyer2.jpeg',
     },
     {
         id: '2',
@@ -17,7 +17,7 @@ export const discs = [
         graphic: 'white bee',
         category: 'sports',
         price: 14.95,
-        img: './assets/disc-buzzz.webp',
+        img: '../assets/disc-buzzz.webp',
     },
     {
         id: '3',
@@ -27,7 +27,7 @@ export const discs = [
         graphic: 'blue',
         category: 'sports',
         price: 4.99,
-        img: './assets/disc-luna.webp',
+        img: '../assets/disc-luna.webp',
     },
     {
         id: '4',
@@ -37,7 +37,7 @@ export const discs = [
         graphic: 'yellow wraith',
         category: 'sports',
         price: 24.99,
-        img: './assets/yellow-wraith.jpeg',
+        img: '../assets/yellow-wraith.jpeg',
     },
     {
         id: '5',
@@ -47,7 +47,7 @@ export const discs = [
         graphic: 'jawbreaker',
         category: 'sports',
         price: 17.99,
-        img: './assets/jawbreaker.jpeg',
+        img: '../assets/jawbreaker.jpeg',
     },
     {
         id: '6',
@@ -57,6 +57,6 @@ export const discs = [
         graphic: 'lime green',
         category: 'sports',
         price: 21.99,
-        img: './assets/firebird-disc.jpeg',
+        img: '../assets/firebird-disc.jpeg',
     }
 ];
