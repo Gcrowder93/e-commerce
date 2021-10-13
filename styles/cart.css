@@ -4,11 +4,12 @@ body {
     background-size:cover;
     background-image: url(/assets/cart.jpeg);
     background-repeat: no-repeat;
-
+    font-family: 'Chakra Petch', sans-serif;
 }
 
 h1 {
     color: tomato;
+    font-size: 3em;
 }
 
 table {

@@ -2,7 +2,7 @@ export const discs = [
     {
         id: '1',
         name: 'Innova Destroyer',
-        stats: '12, 5, -1, 3',
+        stats: '12 ↟ 5 ↨ -1 ↷ 3 ↶',
         type: 'Distance Driver',
         graphic: 'yellow knight',
         category: 'sports',
@@ -12,7 +12,7 @@ export const discs = [
     {
         id: '2',
         name: 'Discraft Buzzz',
-        stats: '5, 4, -1, 1',
+        stats: '5 ⇡, 4 ⇕, -1 , 1',
         type: 'Mid-Range',
         graphic: 'white bee',
         category: 'sports',

@@ -5,17 +5,26 @@ body {
         align-items: center;
         background-color: bisque;
         text-align: center;
+        font-family: 'Gluten';
 }
 
 a {
     font-size: larger;
+    font-family: 'Special Elite', cursive;
     
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h4, h5 {
     display: flex;
     flex-direction: row;
     text-align: center;
+    font-family: 'Amatic SC';
+    font-size: 2em;
+}
+
+h3 {
+    text-decoration: underline;
+    font-size: 1.5em;
 }
 
 .disc-card img{
