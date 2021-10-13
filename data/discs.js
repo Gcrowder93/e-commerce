@@ -27,7 +27,7 @@ export const discs = [
         graphic: 'blue',
         category: 'sports',
         price: 24.99,
-        img: './assets/disc-luna.webp',
+        img: '../assets/disc-luna.webp',
     },
     {
         id: '4',
@@ -47,7 +47,7 @@ export const discs = [
         graphic: 'jawbreaker',
         category: 'sports',
         price: 17.99,
-        img: './assets/jawbreaker.jpeg',
+        img: '../assets/jawbreaker.jpeg',
     },
     {
         id: '6',
@@ -57,6 +57,6 @@ export const discs = [
         graphic: 'lime green',
         category: 'sports',
         price: 21.99,
-        img: './assets/firebird-disc.jpeg',
+        img: '../assets/firebird-disc.jpeg',
     }
 ];
