@@ -6,6 +6,7 @@ const productList = document.getElementById('product-list');
 
 for (let disc of discs){
     const discsCard = renderDiscs(disc);
+    console.log(discsCard);
     productList.append(discsCard);
 }
 
@@ -13,7 +14,6 @@ const addButtons = document.querySelectorAll('.add-button');
 for (let addBtn of addButtons){
     addBtn.addEventListener('click', ()=>{
         addItem(addBtn.id);
-        alert('Added item to cart');
 
     });
 }

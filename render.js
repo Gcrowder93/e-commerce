@@ -22,7 +22,15 @@ export function renderDiscs(disc){
     discCard.id = disc.id;
     const hr = document.createElement('hr');
    
-  
-    discCard.append(discHeader, img, discType, discStats, discPrice, hr);
+    const addButton = document.createElement('button');
+    addButton.textContent = 'Buy';
+    addButton.id = disc.id;
+    addButton.classList.add('add-button');
+ 
+    addButton.addEventListener('click', ()=>{
+        
+    });
+
+    discCard.append(discHeader, img, discType, discStats, discPrice, addButton, hr);
     return discCard;
 }
