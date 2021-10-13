@@ -4,12 +4,20 @@ body {
     background-size:cover;
     background-image: url(/assets/cart.jpeg);
     background-repeat: no-repeat;
+ lab-07-demo
     font-family: 'Chakra Petch', sans-serif;
+
+    font-family: 'Roboto', sans-serif;
+ main
 }
 
 h1 {
     color: tomato;
+ lab-07-demo
     font-size: 3em;
+
+    text-shadow: 3px 3px 3px bisque;
+ main
 }
 
 table {
@@ -26,6 +34,7 @@ thead {
     text-shadow: 3px 3px 3px rgb(196, 25, 119);
     text-decoration: underline;
     background: linear-gradient(to bottom, rgba(85, 11, 11, 0.1), rgba(189, 18, 18, 0.5));
+    font-weight: bold;
 }
 
 table th, table td {
@@ -33,6 +42,7 @@ table th, table td {
     text-align: right;
     background: linear-gradient(to bottom, rgba(255, 217, 217, 0.1), rgba(212, 88, 88, 0.5));
     text-shadow: 3px 3px 3px rgb(196, 25, 167);
+    font-weight: bold;
 }
 
 tfoot {
