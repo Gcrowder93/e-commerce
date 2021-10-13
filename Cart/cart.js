@@ -15,3 +15,9 @@ for (let cartItem of cart){
 const orderTotal = calculateOrderTotal(cart, discs);
 const tdOrderTotal = document.getElementById('total');
 tdOrderTotal.textContent = toUSD(orderTotal);
+
+const orderButton = document.getElementById('order-button');
+orderButton.addEventListener('click', ()=>{
+    localStorage.removeItem('CART');
+    window.location.replace('..');
+});
