@@ -10,7 +10,8 @@ export function calculateOrderTotal(cart, discs){
         const disc = findById(item.id, discs);
         orderTotal = orderTotal + disc.price * item.qty;
     }
-    return orderTotal;
+    console.log(orderTotal.toFixed(2));
+    return orderTotal.toFixed(2);
 }
 
 export function toUSD(number){

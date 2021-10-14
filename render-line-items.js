@@ -14,7 +14,7 @@ export function renderLineItems(cartItem, discData) {
     const tdTotal = document.createElement('td');
 
     const total = cartItem.qty * discData.price;
-    tdTotal.textContent = (total);
+    tdTotal.textContent = (total.toFixed(2));
     
     tr.append(tdName, tdPrice, tdQty, tdTotal);
     return tr;
