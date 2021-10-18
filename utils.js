@@ -38,21 +38,23 @@ export function addItem(id){
     const stringCart = JSON.stringify(cart);
     localStorage.setItem('CART', stringCart);
 }
-import { discs } from './data/discs.js';
+import { discs } from '../data/discs.js';
+
 
 export function getProducts(){
     let lsProducts = localStorage.getItem('PRODUCTS');
+    const products = JSON.parse(lsProducts);
     // should get PRODUCTS from local storage
 
     // if there ARE NO PRODUCTS in local storage-- seed the data
-    if (!discs){
+    if (!products){
         const discsString = JSON.stringify(discs);
         localStorage.setItem('PRODUCTS', discsString);
     }
     return lsProducts || discs;
 }
 
-import { discs } from './data/discs.js';
+
 
 export function addProduct(newDisc){
     let products = getProducts();
@@ -60,3 +62,5 @@ export function addProduct(newDisc){
     let productString = JSON.stringify(products);
     localStorage.setItem('PRODUCTS', productString);
 }
+
+
