@@ -1,10 +1,11 @@
 
 
-import { discs } from '../data/discs.js';
-import { calculateOrderTotal, findById, getCart, toUSD } from '../utils.js';
+//import { discs } from '../data/discs.js';
+import { calculateOrderTotal, findById, getCart, getProducts, toUSD } from '../utils.js';
 import { renderLineItems } from '../render-line-items.js';
 
 const cart = getCart();
+const discs = getProducts();
 const tbody = document.getElementById('table-body');
 for (let cartItem of cart){
     const discData = findById(cartItem.id, discs);

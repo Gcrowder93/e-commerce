@@ -10,7 +10,7 @@ export function calculateOrderTotal(cart, discs){
         const disc = findById(item.id, discs);
         orderTotal = orderTotal + disc.price * item.qty;
     }
-    console.log(orderTotal.toFixed(2));
+
     return orderTotal.toFixed(2);
 }
 
@@ -38,3 +38,25 @@ export function addItem(id){
     const stringCart = JSON.stringify(cart);
     localStorage.setItem('CART', stringCart);
 }
+
+import { discs } from '../data/discs.js';
+
+export function getProducts(){
+    let lsProducts = localStorage.getItem('PRODUCTS');
+    const products = JSON.parse(lsProducts);
+    if (!products){
+        const discsString = JSON.stringify(discs);
+        localStorage.setItem('PRODUCTS', discsString);
+    }
+    return products || discs;
+}
+
+
+export function addProduct(newDisc){
+    let products = getProducts();
+    products.push(newDisc);
+    let productsString = JSON.stringify(products);
+    localStorage.setItem('PRODUCTS', productsString);
+}
+
+
