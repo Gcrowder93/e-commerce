@@ -1,6 +1,6 @@
-import { addProduct } from './utils.js';
+import { addProduct } from '../utils.js';
 
-const form = document.getElementById('product-form');
+const form = document.getElementById('add-product');
 
 form.addEventListener('submit', (e) => {
     e.preventDefault();
@@ -8,8 +8,12 @@ form.addEventListener('submit', (e) => {
     const newDisc = {
         id: data.get('id'),
         name: data.get('name'),
-        price: data.get('price')
+        stats: data.get('stats'),
+        price: data.get('price'),
+        img: data.get('./assest')
+
     };  
+    console.log(newDisc);
     addProduct(newDisc);
     alert('added');
 });

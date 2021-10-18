@@ -11,7 +11,7 @@
     <a href="../Cart/index.html">Shopping Cart</a>
     
 <body>
-    <form><hr>
+    <form id="add-product"><hr>
         <label>
             ID
             <input type="text" name="id" id="id">
@@ -21,18 +21,23 @@
             <input type="text" name="name" id="name">
         </label><br>
         <label>
-            Price
-            <input type="number" name="price" id="price">
+            Stats
+            <input type="text" name="stats" id="stats">
         </label><br>
+        <label>
+            Price
+            <input type="text" name="price" id="price">
+        </label><br>
+        
         <label>
             Img
             <input type="text" name="image" id="image">
         </label>
         <hr>
+            <button id="submit">Add New Disc</button>
     </form>
    
 </body>
 <script type="module" src="./admin.js"></script>
-    
-    <button id="submit">Add New Disc</button>
+
 </html>

@@ -13,11 +13,9 @@ for (let disc of discs){
 
 }
 
-
 const addButtons = document.querySelectorAll('.add-button');
 for (let addBtn of addButtons){
     addBtn.addEventListener('click', ()=>{
         addItem(addBtn.id);
     });
 }
-
