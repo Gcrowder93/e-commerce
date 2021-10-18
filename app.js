@@ -3,7 +3,6 @@ import { renderDiscs } from './render.js';
 import { addItem } from './utils.js';
 
 const productList = document.getElementById('product-list');
-
 for (let disc of discs){
     const discsCard = renderDiscs(disc);
     console.log(discsCard);
