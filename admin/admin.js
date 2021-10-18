@@ -1,4 +1,4 @@
-import { addProduct } from '../utils.js';
+import { addProduct } from './utils.js';
 
 const form = document.getElementById('product-form');
 
