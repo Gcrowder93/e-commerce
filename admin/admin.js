@@ -12,9 +12,9 @@ form.addEventListener('submit', (e) => {
         price: data.get('price'),
         img: data.get('./assest')
 
-    };  
-    console.log(newDisc);
+    }; 
     addProduct(newDisc);
+    window.location.replace('..');
     alert('added');
 });
 
