@@ -1,4 +1,4 @@
-import { addItem, addProduct, getCart, getProducts } from '../utils';
+import { addItem, addProduct, getCart, getProducts } from '../utils.js';
 
 const test = QUnit.test;
 
