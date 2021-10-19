@@ -3,7 +3,7 @@
 //import { discs } from '../data/discs.js';
 import { calculateOrderTotal, findById, getCart, getProducts, toUSD } from '../utils.js';
 import { renderLineItems } from '../render-line-items.js';
-
+const discs = getProducts();
 const cart = getCart();
 const tbody = document.getElementById('table-body');
 for (let cartItem of cart){
@@ -16,9 +16,8 @@ for (let cartItem of cart){
 const orderTotal = calculateOrderTotal(cart, discs);
 const tdOrderTotal = document.getElementById('total');
 tdOrderTotal.textContent = toUSD(orderTotal);
-const discs = getProducts;
+
 const orderButton = document.getElementById('order-button');
 orderButton.addEventListener('click', ()=>{
     localStorage.removeItem('CART');
-    window.location.replace('..');
 });

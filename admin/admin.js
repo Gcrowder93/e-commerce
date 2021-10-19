@@ -10,11 +10,11 @@ form.addEventListener('submit', (e) => {
         name: data.get('name'),
         stats: data.get('stats'),
         price: data.get('price'),
-        img: data.get('./assest')
+        image: data.get('image')
 
     }; 
     addProduct(newDisc);
-    window.location.replace('..');
+    form.reset();
     alert('added');
 });
 
