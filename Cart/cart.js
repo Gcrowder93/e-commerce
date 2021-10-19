@@ -3,9 +3,8 @@
 //import { discs } from '../data/discs.js';
 import { calculateOrderTotal, findById, getCart, getProducts, toUSD } from '../utils.js';
 import { renderLineItems } from '../render-line-items.js';
-
-const cart = getCart();
 const discs = getProducts();
+const cart = getCart();
 const tbody = document.getElementById('table-body');
 for (let cartItem of cart){
     const discData = findById(cartItem.id, discs);
@@ -21,5 +20,4 @@ tdOrderTotal.textContent = toUSD(orderTotal);
 const orderButton = document.getElementById('order-button');
 orderButton.addEventListener('click', ()=>{
     localStorage.removeItem('CART');
-    window.location.replace('..');
 });

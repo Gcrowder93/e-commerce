@@ -1,4 +1,4 @@
-import { addItem, getCart } from "../utils";
+import { addItem, addProduct, getCart, getProducts } from '../utils';
 
 const test = QUnit.test;
 
@@ -24,4 +24,20 @@ test('addItem should add an item if its not already there', (expect)=>{
     const expected = [{ id: '1', qty:1 }];
 
     expect.deepEqual(cart, expected);
+});
+
+test('the addProduct should add a product to the products array', (expect)=>{
+    let products = getProducts();
+    const newProduct = {
+        id: '6',
+        name: 'Prodigy',
+        stats: '4, 2, -2, 4',
+        img: '/assets/prodigy.webp',
+        price: '19.99'
+    };
+
+    addProduct(newProduct);
+
+    products = getProducts();
+    expect.equal(products.length);
 });
