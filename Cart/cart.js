@@ -1,6 +1,5 @@
 
 
-//import { discs } from '../data/discs.js';
 import { calculateOrderTotal, findById, getCart, getProducts, toUSD } from '../utils.js';
 import { renderLineItems } from '../render-line-items.js';
 const discs = getProducts();
