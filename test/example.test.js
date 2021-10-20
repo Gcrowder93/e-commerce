@@ -28,6 +28,7 @@ test('addItem should add an item if its not already there', (expect)=>{
 
 test('the addProduct should add a product to the products array', (expect)=>{
     let products = getProducts();
+    console.log('products', products);
     const newProduct = {
         id: '6',
         name: 'Prodigy',
@@ -39,5 +40,6 @@ test('the addProduct should add a product to the products array', (expect)=>{
     addProduct(newProduct);
 
     products = getProducts();
-    expect.equal(products.length);
+    console.log(products);
+    expect.equal(products.length, 7);
 });
