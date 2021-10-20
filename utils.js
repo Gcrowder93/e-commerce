@@ -1,3 +1,5 @@
+import { discs } from '../data/discs.js';
+
 export function findById(id, discs){
     for (let disc of discs){
         if (disc.id === id){
@@ -39,7 +41,6 @@ export function addItem(id){
     localStorage.setItem('CART', stringCart);
 }
 
-import { discs } from '../data/discs.js';
 
 export function getProducts(){
     let lsProducts = localStorage.getItem('PRODUCTS');
