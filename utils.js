@@ -1,4 +1,4 @@
-import { discs } from './data/discs.js';
+import { discs } from '../data/discs.js';
 
 export function findById(id, discs){
     for (let disc of discs){
